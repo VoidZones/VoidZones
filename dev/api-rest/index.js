@@ -28,7 +28,7 @@ app.get('/api/classes/:typeClass', (req, res)=>{
 
 
 mongoose.connect('mongodb://localhost:27017/voidZones', (err, res)=>{
-    if(err){return console.log('error al conectar a la DB')}
+    if(err){return console.log('error al conectar a la DB'+ err)}
     console.log('Conexión establecida a la DB')
 
 
