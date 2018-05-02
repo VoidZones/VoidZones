@@ -25,6 +25,9 @@ app.get('/api/classes/:typeClass', (req, res)=>{
 
 })
 
+app.post('/api/classes/create'){
+  
+}
 
 
 mongoose.connect('mongodb://localhost:27017/voidZones', (err, res)=>{
